@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" href="fav.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Atoria</title>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
+<link href="2.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<form action="receive.php" method="post">
+<center><img src="img/logo.png" alt="logo"/></center><br /><br /><br />
+<br />
+<div align="center" class="k">
+Imię<br />
+<input type="text" name="imie" value="Unnamed" onfocus="if(this.value=='Unnamed')this.value='';" onblur="if(!this.value)this.value='Unnamed';" />
+</div>
+<br />
+<div align="center" class="k">
+Nazwisko<br />
+<input type="text" name="nazwisko" value="Unnamed" onfocus="if(this.value=='Unnamed')this.value='';" onblur="if(!this.value)this.value='Unnamed';" />
+</div>
+<br />
+<div align="center" class="k">
+Płeć<br/><br/>
+<input type="radio" name="sex" value="Kobieta" checked="checked" />Kobieta
+<input type="radio" name="sex" value="Mężczyzna" />Mężczyzna
+</div>
+<br />
+<div align="center" class="k">
+Klasa<br/><br/>
+<input type="radio" name="class" value="Pirat" />Pirat
+<input type="radio" name="class" value="Wojownik" checked="checked" />Wojownik
+<input type="radio" name="class" value="Druid" />Druid
+</div><br/>
+<br />      
+<center><button class="button" type="submit" value="Submit" style="vertical-align:middle"><span>Stwórz postać</span></button></center>
+</form>
+
+</body>
+</html>

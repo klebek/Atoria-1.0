@@ -1,0 +1,237 @@
+body{
+
+background-image:url('img/bg.jpg');
+background-color:#000612;
+background-repeat: no-repeat;
+background-position: top;
+color: #FFFFFF;
+margin-top: 40px;
+margin-left: 0px;
+
+}
+
+#h1 {
+	margin-left: 605px;
+}
+#h2 {
+	font-family: 'Oswald';
+	float: left;
+}
+.button {
+    background-color: #000612;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+	font-family: 'Oswald', cursive;
+}
+
+.button2 {
+    background-color: #000612;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+	font-family: 'Oswald', cursive;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  
+}
+
+.beka {
+    font-family: 'Oswald', cursive;
+    margin-top: 14px;
+    margin-left: 40px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    float: left;
+}
+
+.k {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    margin-bottom: 20px;
+
+}
+.kaha {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    padding: 5px;
+
+}
+k {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    margin-bottom: 20px;
+
+}
+
+k2 {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+#s {
+    font-family: 'Oswald', cursive;
+    font-size: 100px;
+    text-align:center;
+
+}
+
+#m1 {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    margin-right: 200px;   
+}
+
+#m2 {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    margin-bottom:15px;
+    margin-top: -42px;
+    margin-left: 40px;
+}
+#m5 {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    margin-bottom:15px;
+    margin-top: -42px;
+    margin-left: 40px;
+}
+
+#m3 {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    margin-right: -240px;
+    margin-top: -162px;
+}
+#m4 {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    margin-bottom:15px;
+    margin-top: -42px;
+    margin-left: 40px;
+}
+
+g {
+    font-family: 'Oswald', cursive;
+	color: #000612;
+}
+
+.w1 {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    font-size: 100px;
+    color: #ff3434;
+    margin-top: 0px;
+}
+
+w2 {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    font-size: 100px;
+    color: #ff8f34;
+    margin-top: 260px;   
+}
+
+w3 {
+    font-family: 'Oswald', cursive;
+    text-align:center;
+    font-size: 100px;
+    color: #3ef884;
+    margin-top: 260px;   
+}
+
+.f2 {
+    font-family: 'Oswald', cursive;
+    color: #3ef884;  
+}
+
+input[type=text] {
+    padding: 8px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    background-color: #000612;
+    font-family: 'Oswald', cursive;
+    color: white;
+    text-align:center;
+}
+
+#exCenter{
+    width:600px;
+    margin:auto;
+}
+#start{
+    width:700px;
+    margin-top: -300px;
+}
+#exContent{
+    margin-bottom:2px;
+    margin-top: -40px;
+}
+#exLeftColumn{
+    float:left;
+    width:299px;
+ 
+}
+#exRightColumn{
+    float:right;
+    width:299px;
+    margin-top: 125px;
+
+}
+.exClear{
+    clear:both;
+    line-height:0px;
+}
+
+table { border-collapse: collapse; }
+
+td {
+    text-align: center;
+    font-size: 17px;
+    border: none;
+}
+
+
+#map{
+    text-align: center;
+    margin-top: 50px;
+
+}
