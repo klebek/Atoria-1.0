@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Atoria</title>
 <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
-<link href="2.css" type="text/css" rel="stylesheet" />
+<link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
@@ -70,7 +70,7 @@ echo "</table>";
 
 ?>
 
-<center><br /><a href="ranking.php" class="button" style="vertical-align:middle"><span>Usuń więcej</span></a></center>
+<center><br /><a href="RankingPage.php" class="button" style="vertical-align:middle"><span>Usuń więcej</span></a></center>
 
 </body>
 </html>

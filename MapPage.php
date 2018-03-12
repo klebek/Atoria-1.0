@@ -8,8 +8,8 @@ session_start();
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Atoria</title>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
-    <link href="2.css" type="text/css" rel="stylesheet" />
-    <link rel='stylesheet' type='text/css' href='2.css' />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link rel='stylesheet' type='text/css' href='style.css' />
 </head>
 
 <body>
@@ -73,7 +73,7 @@ session_start();
 	
     $nowex = $x-1; $nowey = $y; $nowez= $z+1; // ruch w lewo - maleje $x
     if (($x=="2" or $x=="3" or $x=="4") and !($x==$skarb_x1 and $y==$skarb_y1 )) {
-        echo "<A HREF=\"skrypt.php?x=$nowex&y=$nowey&z=$nowez\">";
+        echo "<A HREF=\"MapPage.php?x=$nowex&y=$nowey&z=$nowez\">";
         echo "<img border=\"0\" src=\"img/mapa/arrow_l.png\" alt=\"lewo\"/>";
         echo "</A>";
 		
@@ -93,7 +93,7 @@ session_start();
 
     $nowex = $x+1; $nowey = $y;  $nowez= $z+1;// ruch w prawo - ro�nie $x
     if (($x=="1" or $x=="2" or $x=="3")and !($x==$skarb_x1 and $y==$skarb_y1 )) {
-        echo "<A HREF=\"skrypt.php?x=$nowex&y=$nowey&z=$nowez\">";
+        echo "<A HREF=\"MapPage.php?x=$nowex&y=$nowey&z=$nowez\">";
         echo "<img border=\"0\" src=\"img/mapa/arrow_r.png\" alt=\"prawo\"/>";
         echo "</A>";
 		
@@ -113,7 +113,7 @@ session_start();
 	
     $nowex = $x; $nowey = $y-1; $nowez= $z+1; // ruch w g�r� - maleje $y
     if (($y=="2" or $y=="3" or $y=="4")and !($x==$skarb_x1 and $y==$skarb_y1 )) {
-        echo "<A HREF=\"skrypt.php?x=$nowex&y=$nowey&z=$nowez\">";
+        echo "<A HREF=\"MapPage.php?x=$nowex&y=$nowey&z=$nowez\">";
         echo "<img border=\"0\" src=\"img/mapa/arrow_u.png\" alt=\"góra\"/>";
         echo "</A>";
 		
@@ -129,7 +129,7 @@ session_start();
 	
     $nowex = $x; $nowey = $y+1; $nowez= $z+1; // ruch w g�r� - ro�nie $y
     if (($y=="1" or $y=="2" or $y=="3")and !($x==$skarb_x1 and $y==$skarb_y1 )) {
-        echo "<A HREF=\"skrypt.php?x=$nowex&y=$nowey&z=$nowez\">";
+        echo "<A HREF=\"MapPage.php?x=$nowex&y=$nowey&z=$nowez\">";
         echo "<img border=\"0\" src=\"img/mapa/arrow_d.png\" alt=\"dół\"/>";
         echo "</A>";
 		
@@ -154,7 +154,7 @@ session_start();
         echo "<k2><br><br>Udało Ci się odnaleźć zaginiony skarb Atorii!</k2><br /><br />";
         echo "<k>Ilość odbytych wypraw:</k><k2> $z</k2><br />";
         echo "<k>Zobacz jak radzili sobie inni</k><br /><br />";
-        echo '<form action="ranking.php">';
+        echo '<form action="RankingPage.php">';
         echo '<center><button class="button" type="submit" value="Submit" name="submit" style="vertical-align:middle"><span>Dalej</span></button></center>';
         echo "</form>";
     }

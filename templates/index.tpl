@@ -5,11 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Atoria</title>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
-    <link href="2.css" type="text/css" rel="stylesheet" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-<form action="receive.html" method="get">
+<form action="StartPage.html" method="get">
     <div align="center">
         <img src="img/start.png" width="800px" height="599px" alt="tło"/>
         <div align="center" id="start" class="k">
