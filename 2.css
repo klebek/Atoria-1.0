@@ -136,8 +136,8 @@ k2 {
 #m3 {
     font-family: 'Oswald', cursive;
     text-align:center;
-    margin-right: -240px;
-    margin-top: -162px;
+    margin-left: 300px;
+    margin-top: -140px;
 }
 #m4 {
     font-family: 'Oswald', cursive;
@@ -178,7 +178,7 @@ w3 {
 
 .f2 {
     font-family: 'Oswald', cursive;
-    color: #3ef884;  
+    color: #3ef884;
 }
 
 input[type=text] {
@@ -201,14 +201,18 @@ input[type=text] {
     width:700px;
     margin-top: -300px;
 }
+.imgClass {
+    position: relative;
+    z-index: -1;
+    margin-top: -305px;
+}
 #exContent{
     margin-bottom:2px;
     margin-top: -40px;
 }
-#exLeftColumn{
-    float:left;
-    width:299px;
- 
+#exLeftColumn {
+    float: left;
+    width: 650px;
 }
 #exRightColumn{
     float:right;

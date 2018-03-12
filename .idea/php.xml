@@ -4,6 +4,8 @@
     <include_path>
       <path value="." />
       <path value="" />
+      <path value="" />
+      <path value="E:\Grafika\Moja Twórczość\Graphlocks\Portfolio WWW\Atoria 1.0\Atoria-1.0" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />

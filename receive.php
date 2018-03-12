@@ -32,18 +32,8 @@ echo '<center><img src="img/logo.png" alt="logo" /></center><br /><br /><br />';
 
 echo '<div id="exCenter">';
 echo '<div id="exContent">';
-echo '<div id="exLeftColumn">';
-if($klasa == Pirat) {
-    echo '<img src="img/fantasy/pirate.PNG" alt="Pirat" />';
-}
-else if($klasa == Wojownik) {
-    echo '<img src="img/fantasy/knight.PNG" alt="Wojownik" />';
-}
-else if($klasa == Druid) {
-    echo '<img src="img/fantasy/mag.png" alt="Druid" />';
-}
-echo "</div>";
-echo '<div id="exRightColumn" class="f2">';
+
+echo '<div id="exRightColumn">';
 echo '<div class="beka">Imię: '; echo '<font color="#3ef884">'; echo $imie; echo '</font>'; echo '</div>';
 echo '<div class="beka">Nazwisko: '; echo '<font color="#3ef884">'; echo $nazwisko; echo '</font>'; echo '</div>';
 
@@ -62,6 +52,17 @@ else if($klasa == Wojownik) {
 }
 else if($klasa == Druid) {
     echo '<div class="beka">Klasa: '; echo '<font color="#3ef884">'; echo $klasa; echo '</font>'; echo '</div>';
+}
+echo "</div>";
+echo '<div id="exLeftColumn">';
+if($klasa == Pirat) {
+    echo '<img src="img/fantasy/pirate.PNG" alt="Pirat" class="imgClass" />';
+}
+else if($klasa == Wojownik) {
+    echo '<img src="img/fantasy/knight.PNG" alt="Wojownik" class="imgClass" />';
+}
+else if($klasa == Druid) {
+    echo '<img src="img/fantasy/mag.png" alt="Druid" class="imgClass" />';
 }
 echo "</div>";
 echo '<div class="exClear"></div>';

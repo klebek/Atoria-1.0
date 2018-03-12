@@ -65,7 +65,8 @@ $x = DBArrayQuery("select * from ranking order by wynik");
             <input type="text" name="imieDel" value="Imię" onfocus="if(this.value=='Imię')this.value='';" onblur="if(!this.value)this.value='Imię';" />
             <input type="text" name="nazwiskoDel" value="Nazwisko" onfocus="if(this.value=='Nazwisko')this.value='';" onblur="if(!this.value)this.value='Nazwisko';" />
         </div>
-        <center><button class="button" type="submit" value="Submit" style="vertical-align:middle"><span>Usuń</span></button></center>
+        <center>
+            <button class="button" type="submit" onclick="return confirm('Jesteś pewien swoich zamiarów usunięcia zawonika z rankingu?');"><span>Usuń</span></button></center>
     </form>
 
 </body>

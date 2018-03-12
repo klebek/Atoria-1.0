@@ -33,8 +33,8 @@ session_start();
     $plec =	$_POST['sex'];
     $klasa = $_POST['class'];
 
-    $rand1 = 1;rand(1,4);
-    $rand2 = 2;rand(1,4);
+    $rand1 = rand(1,4);
+    $rand2 = rand(1,4);
 
 
     echo '<table align="center">';
